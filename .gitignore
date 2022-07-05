@@ -1,0 +1,4 @@
+output/*
+output
+node_modules
+.idea

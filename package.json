@@ -1,0 +1,21 @@
+{
+  "name": "sharp-ts-demo",
+  "version": "1.0.0",
+  "description": "Demo project for Sharp image manipulation library",
+  "main": "src/convert.ts",
+  "repository": "https://github.com/a13xg0/sharp-ts-demo.git",
+  "author": "Alex Gorbach <a.v.gorbach@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "convert": "ts-node ./src/convert.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.1",
+    "@types/sharp": "^0.30.4",
+    "sharp": "^0.30.7",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.2"
+  }
+}
