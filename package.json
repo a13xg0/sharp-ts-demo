@@ -7,7 +7,8 @@
   "author": "Alex Gorbach <a.v.gorbach@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "convert": "ts-node ./src/convert.ts"
+    "convert": "ts-node ./src/convert.ts",
+    "transform": "ts-node ./src/transform.ts"
   },
   "dependencies": {
     "@types/node": "^18.0.1",
